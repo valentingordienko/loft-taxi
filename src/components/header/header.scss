@@ -1,0 +1,27 @@
+@import '../../appStyle/theme';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-bottom: 1px solid $mainColor;
+
+  &__link {
+    box-sizing: border-box;
+    color: $mainColor;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid $mainColor;
+    border-radius: 3px;
+    margin-left: 8px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:hover {
+      background-color: $secondaryColor;
+    }
+  }
+}
