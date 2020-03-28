@@ -1,0 +1,28 @@
+@import '../../appStyle/theme';
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 8px;
+  border: 1px solid $mainColor;
+  border-radius: 3px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    border: 1px solid $mainColor;
+    border-radius: 3px;
+    padding: 4px;
+  }
+}
